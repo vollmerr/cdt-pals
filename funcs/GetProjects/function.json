@@ -1,0 +1,25 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "token",
+      "direction": "in",
+      "name": "graphToken",
+      "resource": "https://graph.microsoft.com",
+      "identity": "clientCredentials"
+    }
+  ]
+}

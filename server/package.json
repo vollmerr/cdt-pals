@@ -1,0 +1,19 @@
+{
+  "name": "funcs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "start:local": "env-cmd -f .env.local nodemon ./index.js",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "env-cmd": "^9.0.3",
+    "nodemon": "^1.19.1"
+  }
+}

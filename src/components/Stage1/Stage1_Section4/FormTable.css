@@ -1,0 +1,18 @@
+.FormTable {
+  margin-bottom: 15px;
+}
+
+.FormTable td,
+.FormTable thead th {
+  border: none;
+}
+
+.FormTable .form-group {
+  margin: -2px;
+}
+
+.FormTable .table .btn {
+  height: 38px; /* match height of input fields */
+  margin: -2px 0;
+  width: 100%;
+}

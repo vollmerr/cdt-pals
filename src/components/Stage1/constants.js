@@ -1,0 +1,2 @@
+export const GET_PROJECT = 'Stage1/GET_PROJECT';
+export const GET_PROJECT_SUCCESS = 'Stage1/GET_PROJECT_SUCCESS';
